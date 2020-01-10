@@ -32,7 +32,11 @@ def play(arr)
   idx = [1,2,3,4,5,6,7,8,9]
   puts "Please enter a song name or number:"
   input = gets.strip
-  if arr.include?(input) || 
+  if arr.include?(input) || idx.include?(input)
+    
+  else
+    
+  end
 end
 
 def exit_jukebox
