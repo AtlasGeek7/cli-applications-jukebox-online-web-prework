@@ -13,9 +13,7 @@ def list(arr)
     puts "#{i+1}. #{arr[i]}"
     i +=1
   end
-  
-  end
-  
+end
   
 def play(arr)
   idx = [1,2,3,4,5,6,7,8,9]
