@@ -1,4 +1,4 @@
-.to_i
+
 
 def help
   puts "I accept the following commands:"
