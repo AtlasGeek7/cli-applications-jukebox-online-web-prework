@@ -22,7 +22,7 @@ def list
   i = 0
   len = songs.length
   while i < len
-    
+    puts ""
   end
   
   end
