@@ -33,7 +33,7 @@ def exit_jukebox
 end
 
 def run(songs)
-  while true do
+  loop do
     puts "Please enter a command:"
     cmd = gets.chomp.strip
     case cmd
