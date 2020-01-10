@@ -1,4 +1,4 @@
-def help
+def help_me
   puts "I accept the following commands:"
   puts "- help : displays this help message"
   puts "- list : displays a list of songs you can play"
@@ -54,7 +54,7 @@ def run
       when "list"
         list(songs)
       when "help"
-        help
+        help_me
       when "play"
         play(songs)
       else
