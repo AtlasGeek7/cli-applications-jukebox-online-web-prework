@@ -35,7 +35,7 @@ def exit_jukebox
 end
 
 def run
-
+  
   while true do
     puts "Please enter a command:"
     cmd = gets.chomp.strip
