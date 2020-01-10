@@ -34,7 +34,7 @@ def play(arr)
 end
 
 def exit_jukebox
-  puts "Please enter a song name or number:"
+  puts "Goodbye"
   input = gets.strip
 end
   
