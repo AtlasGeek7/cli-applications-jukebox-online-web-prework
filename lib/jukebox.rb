@@ -50,14 +50,14 @@ def run
     when "exit"
       exit_jukebox
     when "list"
-      "The tank is almost empty. Quickly, find a gas station!"
-when 21..70
-  "You should be ok for now."
-when 71..100
-  "The tank is almost full."
-else
-  "Error: capacity has an invalid value (#{capacity})"
-
+      list(songs)
+    when "help"
+      help
+    when "play"
+      play(songs)
+    else
+      "Invalid command!"
+    end
 end
   
   
