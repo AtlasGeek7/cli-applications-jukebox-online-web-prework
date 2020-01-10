@@ -28,13 +28,10 @@ def list(arr)
   end
   
   
-  def play(arr)
-  i = 0
-  len = arr.length
-  while i < len
-    puts "#{i+1}. #{arr[i]}"
-  end
-  end
+def play(arr)
+  puts "Please enter a song name or number:"
+  input = gets.strip
+end
   
   
   
