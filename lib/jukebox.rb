@@ -20,5 +20,15 @@ end
 
 def list
   i = 0
-  len = songs.siz
+  len = songs.length
+  while i < len
+    
   end
+  
+  end
+  
+  
+  
+  
+  
+  
