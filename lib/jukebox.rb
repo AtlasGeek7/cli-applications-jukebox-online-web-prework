@@ -20,7 +20,7 @@ def list(arr)
 def play(arr)
   idx = [1,2,3,4,5,6,7,8,9]
   puts "Please enter a song name or number:"
-  input = gets.strip
+  input = gets.chomp.strip
   if arr.include?(input) || idx.include?(input.to_i)
     input.length == 1 ? (puts "Playing #{arr[input.to_i-1]}") : (puts "Playing #{input}")
   else
