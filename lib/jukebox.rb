@@ -32,6 +32,11 @@ def play(arr)
   puts "Please enter a song name or number:"
   input = gets.strip
 end
+
+def play(arr)
+  puts "Please enter a song name or number:"
+  input = gets.strip
+end
   
   
   
