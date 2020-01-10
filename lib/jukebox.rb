@@ -22,7 +22,7 @@ def play(arr)
   puts "Please enter a song name or number:"
   input = gets.strip
   if arr.include?(input) || idx.include?(input.to_i)
-    input.length == 1 ? puts "Playing #{input}" : puts 
+    input.length == 1 ? puts "Playing #{arr[input-1]}" : puts "Playing #{input}"
   else
     puts "Invalid input, please try again"
   end
