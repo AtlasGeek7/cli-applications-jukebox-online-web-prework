@@ -33,7 +33,7 @@ def play(arr)
   puts "Please enter a song name or number:"
   input = gets.strip
   if arr.include?(input) || idx.include?(input)
-    
+    puts "Playing #{input}"
   else
     
   end
