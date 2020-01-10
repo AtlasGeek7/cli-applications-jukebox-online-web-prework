@@ -44,6 +44,7 @@ def exit_jukebox
 end
 
 def run
+  loop do
   puts "Please enter a command:"
   cmd = gets.strip
   case cmd
