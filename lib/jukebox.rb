@@ -38,7 +38,7 @@ def run
 
   while true do
     puts "Please enter a command:"
-    cmd = gets.strip
+    cmd = gets.chomp.strip
     case cmd
       when "exit"
         exit_jukebox
