@@ -1,24 +1,4 @@
-def run(songs)
-  while true do
-    puts "Please enter a command:"
-    response = gets.chomp
-    case response
-    when "exit"
-      exit_jukebox
-      break
-    when "play"
-      play(songs)
-    when "help"
-      help
-    when "list"
-      list(songs)
-    else
-      puts "Invalid entry"
-    end
-  end
-end
-
-def help
+def help_me
   puts "I accept the following commands:"
   puts "- help : displays this help message"
   puts "- list : displays a list of songs you can play"
@@ -52,3 +32,22 @@ def exit_jukebox
   puts "Goodbye"
 end
 
+def run
+  while true do
+    puts "Please enter a command:"
+    cmd = gets.chomp.strip
+    case cmd
+      when "exit"
+        exit_jukebox
+        break
+      when "list"
+        list(songs)
+      when "help_me"
+        help_me
+      when "play"
+        play(songs)
+      else
+        "Invalid command!"
+    end
+  end
+end
