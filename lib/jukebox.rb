@@ -18,11 +18,11 @@ def help
   puts "- exit : exits this program"
 end
 
-def list
+def list(arr)
   i = 0
-  len = songs.length
+  len = arr.length
   while i < len
-    puts "#{i+1}. #{songs[i]}"
+    puts "#{i+1}. #{arr[i]}"
   end
   
   end
