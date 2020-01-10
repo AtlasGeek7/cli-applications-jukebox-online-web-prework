@@ -11,6 +11,7 @@ def list(arr)
   len = arr.length
   while i < len
     puts "#{i+1}. #{arr[i]}"
+    i +=1
   end
   
   end
