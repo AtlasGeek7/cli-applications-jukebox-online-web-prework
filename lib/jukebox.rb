@@ -45,19 +45,21 @@ end
 
 def run
   loop do
-  puts "Please enter a command:"
-  cmd = gets.strip
-  case cmd
-    when "exit"
-      exit_jukebox
-    when "list"
-      list(songs)
-    when "help"
-      help
-    when "play"
-      play(songs)
-    else
-      "Invalid command!"
+    puts "Please enter a command:"
+    cmd = gets.strip
+    case cmd
+      when "exit"
+        exit_jukebox
+        break
+      when "list"
+        list(songs)
+      when "help"
+        help
+      when "play"
+        play(songs)
+      else
+        "Invalid command!"
+    end
   end
 end
   
