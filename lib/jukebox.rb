@@ -53,7 +53,7 @@ def run
         break
       when "list"
         list(songs)
-      when "help"
+      when "help_me"
         help_me
       when "play"
         play(songs)
