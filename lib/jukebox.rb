@@ -45,8 +45,8 @@ end
 
 def run
   puts "Please enter a command:"
-  input = gets.strip
-  case input
+  cmd = gets.strip
+  case cmd
     when "exit"
       exit_jukebox
     when "list"
@@ -57,7 +57,7 @@ def run
       play(songs)
     else
       "Invalid command!"
-    end
+  end
 end
   
   
